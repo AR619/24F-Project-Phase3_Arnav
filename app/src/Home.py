@@ -79,6 +79,6 @@ if st.button('Act as John Doe(Student)',
     st.session_state['authenticated'] = True
     st.session_state['role'] = 'student'
     st.session_state['first_name'] = 'John'
-
+    st.switch_page('pages/Student_Home_page.py')
 
 
