@@ -88,3 +88,7 @@ def update_job_opportunities():
     response = make_response("Job opportunities updated successfully.")
     response.status_code = 200
     return response
+
+# All jobs available
+
+

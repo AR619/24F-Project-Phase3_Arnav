@@ -140,18 +140,17 @@ def update_user_details():
 @users.route('/user', methods=['DELETE'])
 def delete_user():
     """
-    Mark a user as inactive (soft delete).
+    Permanently delete a user from the database.
     """
     data = request.json
     user_id = data['userId']
-
     query = f'''
-        UPDATE user
-        SET status = 0
+        DELETE FROM user
         WHERE userId = {user_id}
     '''
     cursor = db.get_db().cursor()
     cursor.execute(query)
     db.get_db().commit()
 
-    return make_response(jsonify({"message": "User marked as inactive successfully"}), 200)
+    return make_response(jsonify({"message": "User deleted successfully"}), 200)
+
