@@ -3,9 +3,25 @@
 
 ## Description
 
-**TalentTrail** is a data-driven platform designed to empower Northeastern University students in their career planning journey. By integrating skills with career interests, TalentTrail provides personalized recommendations for classes, projects, and job opportunities.
+**TalentTrail** is a data-driven platform designed to empower Northeastern University students by integrating skills and career interests to provide personalized recommendations for classes, projects, and job opportunities. Bridging the gap between education and employment, TalentTrail transforms career planning into a proactive and intuitive journey. It caters to students with curated recommendations, employers with advanced talent discovery tools, advisors with detailed co-op insights, and administrators with efficient platform management, making career planning an engaging and data-driven experience for all users.
 
+## Key Features
 
+1. **Personalized Job Search**  
+   Utilize an intelligent tool that matches students with roles based on their affiliated skills.
+
+2. **Gamified Experience**  
+   Climb leaderboards and try making it to the top!
+
+3. **Multi-Role Support**  
+   Custom dashboards for students, employers, advisors, and administrators to ensure tailored functionality.
+
+## Tech Stack
+
+- **Frontend:** Streamlit
+- **Backend:** Flask, Python
+- **Database:** SQL (managed using DataGrip)
+- **Containerization:** Docker
 
 ## Project Components
 
@@ -14,15 +30,7 @@ Our project consists of three major components which will each run in their own 
 - Streamlit App in the `./app` directory
 - Flask REST api in the `./api` directory
 - SQL files for your data model and data base in the `./database-files` directory
-  
-### Setting Up Your Team Repo 
 
-Before you start: As a team, one person needs to assume the role of *Team Project Repo Owner*. 
-
-1. The Team Project Repo Owner needs to fork this template repo into their own GitHub account **and give the repo a name consistent with your project's name**.  If you're worried that the repo is public, don't.  Every team is doing a different project. 
-1. In the newly forked team repo, the Team Project Repo Owner should go to the **Settings** tab, choose **Collaborators and Teams** on the left-side panel. Add each of your team members to the repository with Write access. 
-1. Each of the other team members will receive an invitation to join.  Obviously accept the invite. 
-1. Once that process is complete, each team member, including the repo owner, should clone the Team's Repo to their local machines (in a different location than your Personal Project Repo).  
 
 ## Controlling the Containers
 
