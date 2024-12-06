@@ -71,7 +71,14 @@ Our project consists of three major components which will each run in their own 
    - [Git Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 
-## Instructions to use app
+## How to Run the TalentTrail App
+
+Follow these steps to set up and run the TalentTrail application:
+
+### Step 1: Clone the Repository  
+Open your terminal and run the following command to clone the project:
+```bash
+git clone <repository-url>
 
 
  
