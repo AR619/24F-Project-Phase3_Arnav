@@ -78,7 +78,11 @@ Follow these steps to set up and run the TalentTrail application:
 ### Step 1: Clone the Repository  
 Open your terminal and run the following command to clone the project:
 ```bash
-git clone <repository-url>
+git clone https://github.com/AR619/24F-Project-Phase3_Arnav.git
+```
+
+
+
 
 
  
